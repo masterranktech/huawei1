@@ -5,230 +5,260 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Huawei</title>
+    <title>Huawei - Building a Fully Connected, Intelligent World</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="popup">
-        <img src="images/icons/person-workspace.svg" alt="support">
-    </div>
-    <!-- header top black -->
+    <!-- Floating Support Trigger -->
+    <aside class="popup" aria-label="Support Assistant">
+        <img src="images/icons/person-workspace.svg" alt="Customer Support">
+    </aside>
+
+    <!-- Top Utility Bar -->
     <div class="header-top">
-        <a href="#">Corporate</a>
-        <a href="#">WorldWide</a>
-        <a href="#">Log in</a>
-    </div>
-    <!-- header bottom sticky -->
-    <div class="header-bottom">
-        <div class="logo-box">
-            <img src="images/banners-logo/logo.webp" alt="logo">
-        </div>
-        <div class="header-link">
-            <a href="#">Consumer Products</a>
-            <a href="#">Business Products</a>
-            <a href="#">Support</a>
-            <a href="#">Partners & Developers</a>
-            <a href="#">About Huawei</a>
-        </div>
-        <div class="search-icon">
-            <img src="images/icons/search.svg" alt="search icon">
-        </div>
-    </div>
-    <!-- banner top -->
-    <div class="bannerbox">
-        <img src="images/banners-logo/banner-top.webp" alt="banner">
-        <a href="#">Learn More</a>
-    </div>
-
-    <div class="ie-header">
-        <h2>What's New</h2>
-    </div>
-
-    <div class="container">
-        <div class="items items-long">
-            <div class="items-long-image">
-                <img src="images/items-events/item1.webp" alt="item">
-            </div>
-            <div class="items-text">
-                <a href="#">
-                    <p>NEW YEAR MESSAGE</p>
-                    <h3>Stay Grounded for Steady and Long-term Growth</h3>
-                    <p>A New Year Message for 2024 from Ken Hu, Rotating Chairman</p>
-                    <p id="items-last-par">Learn More</p>
-                </a>
-            </div>
-        </div>
-        <div class="items items-small">
-            <div class="items-small-image">
-                <img src="images/items-events/item2.webp" alt="item">
-            </div>
-            <div class="items-text">
-                <a href="#">
-                    <p>NEW YEAR MESSAGE</p>
-                    <h3>Stay Grounded for Steady and Long-term Growth</h3>
-                    <p>A New Year Message for 2024 from Ken Hu, Rotating Chairman</p>
-                    <p id="items-last-par">Learn More</p>
-                </a>
-            </div>
-        </div>
-
-        <div class="items items-small">
-            <div class="items-small-image">
-                <img src="images/items-events/item3.webp" alt="item">
-            </div>
-            <div class="items-text">
-                <a href="#">
-                    <p>NEW YEAR MESSAGE</p>
-                    <h3>Stay Grounded for Steady and Long-term Growth</h3>
-                    <p>A New Year Message for 2024 from Ken Hu, Rotating Chairman</p>
-                    <p id="items-last-par">Learn More</p>
-                </a>
-            </div>
-        </div>
-        <div class="items items-long">
-            <div class="items-long-image">
-                <img src="images/items-events/item4.webp" alt="item">
-            </div>
-            <div class="items-text">
-                <a href="#">
-                    <p>NEW YEAR MESSAGE</p>
-                    <h3>Stay Grounded for Steady and Long-term Growth</h3>
-                    <p>A New Year Message for 2024 from Ken Hu, Rotating Chairman</p>
-                    <p id="items-last-par">Learn More</p>
-                </a>
-            </div>
-        </div>
-        <div class="items items-little">
-            <div class="items-little-image">
-                <img src="images/items-events/item5.jpg" alt="item">
-            </div>
-            <div class="items-text">
-                <a href="#">
-                    <p>NEW YEAR MESSAGE</p>
-                    <h3>Stay Grounded for Steady and Long-term Growth</h3>
-                    <p>A New Year Message for 2024 from Ken Hu, Rotating Chairman</p>
-                    <p id="items-last-par">Learn More</p>
-                </a>
-            </div>
-        </div>
-
-        <div class="items items-little">
-            <div class="items-little-image">
-                <img src="images/items-events/item6.webp" alt="item">
-            </div>
-            <div class="items-text">
-                <a href="#">
-                    <p>NEW YEAR MESSAGE</p>
-                    <h3>Stay Grounded for Steady and Long-term Growth</h3>
-                    <p>A New Year Message for 2024 from Ken Hu, Rotating Chairman</p>
-                    <p id="items-last-par">Learn More</p>
-                </a>
-            </div>
-        </div>
-
-        <div class="items items-little">
-            <div class="items-little-image">
-                <img src="images/items-events/item7.jpg" alt="item">
-            </div>
-            <div class="items-text">
-                <a href="#">
-                    <p>NEW YEAR MESSAGE</p>
-                    <h3>Stay Grounded for Steady and Long-term Growth</h3>
-                    <p>A New Year Message for 2024 from Ken Hu, Rotating Chairman</p>
-                    <p id="items-last-par">Learn More</p>
-                </a>
-            </div>
+        <div class="header-top-inner">
+            <a href="#">Corporate</a>
+            <a href="#">Worldwide</a>
+            <a href="#">Log in</a>
         </div>
     </div>
 
-    <div class="bannerbox">
-        <img src="images/banners-logo/banner-bottom.webp" alt="banner">
-        <a href="#" id="bannerbox-btnbottom">Learn More</a>
-    </div>
+    <!-- Main Navigation Bar -->
+    <header class="header-bottom">
+        <div class="header-bottom-inner">
+            <a href="#" class="logo-box">
+                <img src="images/banners-logo/logo.webp" alt="Huawei Logo">
+            </a>
 
-    <div class="ie-header">
-        <h2>News & Events</h2>
-    </div>
+            <!-- Mobile Menu Toggle Button -->
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
 
-    <div class="container">
-        <div class="event event-info">
-            <div class="event-imgbox">
-                <img src="images/items-events/event1.webp" alt="event">
-            </div>
-            <div class="event-text">
-                <h3>Huawei at COP28</h3>
-                <a href="#">
-                    <img src="images/icons/geo-alt.svg" alt="loc">
-                    Dubai, UAE
-                </a>
-                <a href="#">
-                    <img src="images/icons/calendar2-week.svg" alt="cal">
-                    NOV 30 - DEC 12, 2023
-                </a>
-                <p>"Innovate. Collaborate. Transform." Huawei is joining global efforts at COP28.
-                </p>
+            <nav class="header-link" id="headerNav" aria-label="Primary Navigation">
+                <a href="#">Consumer Products</a>
+                <a href="#">Business Products</a>
+                <a href="#">Support</a>
+                <a href="#">Partners & Developers</a>
+                <a href="#">About Huawei</a>
+            </nav>
+
+            <div class="search-icon" role="button" aria-label="Search site">
+                <img src="images/icons/search.svg" alt="Search icon">
             </div>
         </div>
+    </header>
 
-        <div class="event event-info">
-            <div class="event-imgbox">
-                <img src="images/items-events/event2.webp" alt="event">
+    <main>
+        <!-- Top Hero Banner -->
+        <section class="bannerbox" aria-label="Featured Story">
+            <img src="images/banners-logo/banner-top.webp" alt="Huawei Top Showcase Banner">
+            <div class="banner-content">
+                <a href="#" class="banner-btn">Learn More</a>
             </div>
-            <div class="event-text">
-                <h3>Huawei at COP28</h3>
-                <a href="#">
-                    <img src="images/icons/geo-alt.svg" alt="loc">
-                    Dubai, UAE
-                </a>
-                <a href="#">
-                    <img src="images/icons/calendar2-week.svg" alt="cal">
-                    NOV 30 - DEC 12, 2023
-                </a>
-                <p>"Innovate. Collaborate. Transform." Huawei is joining global efforts at COP28.
-                </p>
-            </div>
+        </section>
+
+        <!-- What's New Header -->
+        <div class="ie-header">
+            <h2>What's New</h2>
         </div>
 
-        <div class="event event-textbox">
-            <div>
-                <a href="#">
-                    <h3>Team Namibia Wins Huawei's Tech4Good Global Competition 2023</h3>
-                    <p>JAN 16, 2024</p>
-                </a>
-            </div>
-            <div>
-                <a href="#">
-                    <h3>Huawei OptiX OSN 9800 Series Once Again Ranks as "Leader" in Core and Metro WDM by GlobalData
-                    </h3>
-                    <p>JAN 08, 2024</p>
-                </a>
-            </div>
-            <div>
+        <!-- What's New Grid -->
+        <section class="container whats-new-grid" aria-label="Latest Highlights">
+            <article class="items items-long">
+                <div class="items-image">
+                    <img src="images/items-events/item1.webp" alt="New Year Message 2024">
+                </div>
+                <div class="items-text">
+                    <a href="#">
+                        <p class="tag">NEW YEAR MESSAGE</p>
+                        <h3>Stay Grounded for Steady and Long-term Growth</h3>
+                        <p class="desc">A New Year Message for 2024 from Ken Hu, Rotating Chairman</p>
+                        <p id="items-last-par">Learn More &rarr;</p>
+                    </a>
+                </div>
+            </article>
 
+            <article class="items items-small">
+                <div class="items-image">
+                    <img src="images/items-events/item2.webp" alt="New Year Message 2024">
+                </div>
+                <div class="items-text">
+                    <a href="#">
+                        <p class="tag">NEW YEAR MESSAGE</p>
+                        <h3>Stay Grounded for Steady and Long-term Growth</h3>
+                        <p class="desc">A New Year Message for 2024 from Ken Hu, Rotating Chairman</p>
+                        <p id="items-last-par">Learn More &rarr;</p>
+                    </a>
+                </div>
+            </article>
+
+            <article class="items items-small">
+                <div class="items-image">
+                    <img src="images/items-events/item3.webp" alt="New Year Message 2024">
+                </div>
+                <div class="items-text">
+                    <a href="#">
+                        <p class="tag">NEW YEAR MESSAGE</p>
+                        <h3>Stay Grounded for Steady and Long-term Growth</h3>
+                        <p class="desc">A New Year Message for 2024 from Ken Hu, Rotating Chairman</p>
+                        <p id="items-last-par">Learn More &rarr;</p>
+                    </a>
+                </div>
+            </article>
+
+            <article class="items items-long">
+                <div class="items-image">
+                    <img src="images/items-events/item4.webp" alt="New Year Message 2024">
+                </div>
+                <div class="items-text">
+                    <a href="#">
+                        <p class="tag">NEW YEAR MESSAGE</p>
+                        <h3>Stay Grounded for Steady and Long-term Growth</h3>
+                        <p class="desc">A New Year Message for 2024 from Ken Hu, Rotating Chairman</p>
+                        <p id="items-last-par">Learn More &rarr;</p>
+                    </a>
+                </div>
+            </article>
+
+            <article class="items items-little">
+                <div class="items-image">
+                    <img src="images/items-events/item5.jpg" alt="New Year Message 2024">
+                </div>
+                <div class="items-text">
+                    <a href="#">
+                        <p class="tag">NEW YEAR MESSAGE</p>
+                        <h3>Stay Grounded for Steady and Long-term Growth</h3>
+                        <p class="desc">A New Year Message for 2024 from Ken Hu, Rotating Chairman</p>
+                        <p id="items-last-par">Learn More &rarr;</p>
+                    </a>
+                </div>
+            </article>
+
+            <article class="items items-little">
+                <div class="items-image">
+                    <img src="images/items-events/item6.webp" alt="New Year Message 2024">
+                </div>
+                <div class="items-text">
+                    <a href="#">
+                        <p class="tag">NEW YEAR MESSAGE</p>
+                        <h3>Stay Grounded for Steady and Long-term Growth</h3>
+                        <p class="desc">A New Year Message for 2024 from Ken Hu, Rotating Chairman</p>
+                        <p id="items-last-par">Learn More &rarr;</p>
+                    </a>
+                </div>
+            </article>
+
+            <article class="items items-little">
+                <div class="items-image">
+                    <img src="images/items-events/item7.jpg" alt="New Year Message 2024">
+                </div>
+                <div class="items-text">
+                    <a href="#">
+                        <p class="tag">NEW YEAR MESSAGE</p>
+                        <h3>Stay Grounded for Steady and Long-term Growth</h3>
+                        <p class="desc">A New Year Message for 2024 from Ken Hu, Rotating Chairman</p>
+                        <p id="items-last-par">Learn More &rarr;</p>
+                    </a>
+                </div>
+            </article>
+        </section>
+
+        <!-- Secondary Promotional Banner -->
+        <section class="bannerbox bannerbox-bottom" aria-label="Campaign Feature">
+            <img src="images/banners-logo/banner-bottom.webp" alt="Huawei Technology Initiative">
+            <div class="banner-content banner-content-left">
+                <a href="#" id="bannerbox-btnbottom" class="banner-btn">Learn More</a>
             </div>
-            <div>
-                <a href="#">
-                    <h3>IEC International Standards Promotion Center (Nanjing) and Huawei Sign Strategic Cooperation
-                        Agreement</h3>
-                    <p>DEC 27, 2023</p>
-                </a>
-            </div>
-            <div>
-                <a href="#">
-                    <h3>F5G Enables Giga City Construction in Indonesia, Huawei Executive says</h3>
-                    <p>DEC 21, 2023</p>
-                </a>
-            </div>
+        </section>
+
+        <!-- News & Events Header -->
+        <div class="ie-header">
+            <h2>News & Events</h2>
         </div>
-    </div>
 
-    <div class="btn-group">
-        <a href="#">More Events</a>
-        <a href="#">More News</a>
-    </div>
+        <!-- News & Events Container -->
+        <section class="container events-grid" aria-label="Upcoming Events and Latest Press Releases">
+            <article class="event event-info">
+                <div class="event-imgbox">
+                    <img src="images/items-events/event1.webp" alt="Huawei at COP28 Event 1">
+                </div>
+                <div class="event-text">
+                    <h3>Huawei at COP28</h3>
+                    <div class="event-meta">
+                        <a href="#">
+                            <img src="images/icons/geo-alt.svg" alt="Location">
+                            Dubai, UAE
+                        </a>
+                        <a href="#">
+                            <img src="images/icons/calendar2-week.svg" alt="Date">
+                            NOV 30 - DEC 12, 2023
+                        </a>
+                    </div>
+                    <p>"Innovate. Collaborate. Transform." Huawei is joining global efforts at COP28.</p>
+                </div>
+            </article>
 
-    <div class="footer">
+            <article class="event event-info">
+                <div class="event-imgbox">
+                    <img src="images/items-events/event2.webp" alt="Huawei at COP28 Event 2">
+                </div>
+                <div class="event-text">
+                    <h3>Huawei at COP28</h3>
+                    <div class="event-meta">
+                        <a href="#">
+                            <img src="images/icons/geo-alt.svg" alt="Location">
+                            Dubai, UAE
+                        </a>
+                        <a href="#">
+                            <img src="images/icons/calendar2-week.svg" alt="Date">
+                            NOV 30 - DEC 12, 2023
+                        </a>
+                    </div>
+                    <p>"Innovate. Collaborate. Transform." Huawei is joining global efforts at COP28.</p>
+                </div>
+            </article>
+
+            <aside class="event event-textbox" aria-label="Press Release Updates">
+                <div>
+                    <a href="#">
+                        <h3>Team Namibia Wins Huawei's Tech4Good Global Competition 2023</h3>
+                        <p>JAN 16, 2024</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <h3>Huawei OptiX OSN 9800 Series Once Again Ranks as "Leader" in Core and Metro WDM by GlobalData</h3>
+                        <p>JAN 08, 2024</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <h3>IEC International Standards Promotion Center (Nanjing) and Huawei Sign Strategic Cooperation Agreement</h3>
+                        <p>DEC 27, 2023</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <h3>F5G Enables Giga City Construction in Indonesia, Huawei Executive says</h3>
+                        <p>DEC 21, 2023</p>
+                    </a>
+                </div>
+            </aside>
+        </section>
+
+        <!-- More Actions -->
+        <div class="btn-group">
+            <a href="#">More Events</a>
+            <a href="#">More News</a>
+        </div>
+    </main>
+
+    <!-- Global Corporate Footer -->
+    <footer class="footer">
         <div class="footer-top">
             <div class="footer-top-left">
                 <p>Home</p>
@@ -236,7 +266,7 @@
             <div class="footer-top-right">
                 <div class="searchbox">
                     <span>Search huawei.com</span>
-                    <img src="images/icons/search.svg" alt="search">
+                    <img src="images/icons/search.svg" alt="Search">
                 </div>
             </div>
         </div>
@@ -244,142 +274,48 @@
         <div class="footer-middle">
             <div class="list">
                 <ul>
-                    <li>
-                        <h3>About Huawei</h3>
-                    </li>
-                    <a href="#">
-                        <li>
-                            <p>Our Company</p>
-                        </li>
-                    </a>
-                    <a href="#">
-                        <li>
-                            <p>Sustainability</p>
-                        </li>
-                    </a>
-                    <a href="#">
-                        <li>
-                            <p>Trust Center</p>
-                        </li>
-                    </a>
-                    <a href="#">
-                        <li>
-                            <p>Executives</p>
-                        </li>
-                    </a>
-                    <a href="#">
-                        <li>
-                            <p>Careers</p>
-                        </li>
-                    </a>
-                    <a href="#">
-                        <li>
-                            <p>Suppliers</p>
-                        </li>
-                    </a>
-                    <a href="#">
-                        <li>
-                            <p>See More</p>
-                        </li>
-                    </a>
+                    <li><h3>About Huawei</h3></li>
+                    <li><a href="#"><p>Our Company</p></a></li>
+                    <li><a href="#"><p>Sustainability</p></a></li>
+                    <li><a href="#"><p>Trust Center</p></a></li>
+                    <li><a href="#"><p>Executives</p></a></li>
+                    <li><a href="#"><p>Careers</p></a></li>
+                    <li><a href="#"><p>Suppliers</p></a></li>
+                    <li><a href="#"><p>See More</p></a></li>
                 </ul>
             </div>
             <div class="list">
                 <ul>
-                    <li>
-                        <h3>News & Events</h3>
-                    </li>
-                    <a href="#">
-                        <li>
-                            <p>Media Center</p>
-                        </li>
-                    </a>
-                    <a href="#">
-                        <li>
-                            <p>Events</p>
-                        </li>
-                    </a>
+                    <li><h3>News & Events</h3></li>
+                    <li><a href="#"><p>Media Center</p></a></li>
+                    <li><a href="#"><p>Events</p></a></li>
                 </ul>
             </div>
             <div class="list">
                 <ul>
-                    <li>
-                        <h3>Explore Huawei</h3>
-                    </li>
-                    <a href="#">
-                        <li>
-                            <p>HuaweiTech</p>
-                        </li>
-                    </a>
-                    <a href="#">
-                        <li>
-                            <p>Thrive with Digital</p>
-                        </li>
-                    </a>
-                    <a href="#">
-                        <li>
-                            <p>Intelligent World 2030</p>
-                        </li>
-                    </a>
-                    <a href="#">
-                        <li>
-                            <p>Striding Towards the Intelligent World</p>
-                        </li>
-                    </a>
-                    <a href="#">
-                        <li>
-                            <p>Huawei Blog</p>
-                        </li>
-                    </a>
-                    <a href="#">
-                        <li>
-                            <p>Publications</p>
-                        </li>
-                    </a>
+                    <li><h3>Explore Huawei</h3></li>
+                    <li><a href="#"><p>HuaweiTech</p></a></li>
+                    <li><a href="#"><p>Thrive with Digital</p></a></li>
+                    <li><a href="#"><p>Intelligent World 2030</p></a></li>
+                    <li><a href="#"><p>Striding Towards the Intelligent World</p></a></li>
+                    <li><a href="#"><p>Huawei Blog</p></a></li>
+                    <li><a href="#"><p>Publications</p></a></li>
                 </ul>
             </div>
             <div class="list">
                 <ul>
-                    <li>
-                        <h3>Products</h3>
-                    </li>
-                    <a href="#">
-                        <li>
-                            <p>Consumer</p>
-                        </li>
-                    </a>
-                    <a href="#">
-                        <li>
-                            <p>Enterprise</p>
-                        </li>
-                    </a>
-                    <a href="#">
-                        <li>
-                            <p>Carrier</p>
-                        </li>
-                    </a>
-                    <a href="#">
-                        <li>
-                            <p>Huawei Cloud</p>
-                        </li>
-                    </a>
+                    <li><h3>Products</h3></li>
+                    <li><a href="#"><p>Consumer</p></a></li>
+                    <li><a href="#"><p>Enterprise</p></a></li>
+                    <li><a href="#"><p>Carrier</p></a></li>
+                    <li><a href="#"><p>Huawei Cloud</p></a></li>
                 </ul>
             </div>
             <div class="list">
                 <ul>
-                    <li>
-                        <h3>Support</h3>
-                    </li>
-                    <a href="#">
-                        <li>
-                            <p>Consumer Support</p>
-                        </li>
-                    </a>
-                    <a href="#">
-                        <li>
-                            <p>Huawei Cloud Support</p>
-                        </li>
-                    </a>
+                    <li><h3>Support</h3></li>
+                    <li><a href="#"><p>Consumer Support</p></a></li>
+                    <li><a href="#"><p>Huawei Cloud Support</p></a></li>
                 </ul>
             </div>
         </div>
@@ -390,32 +326,34 @@
                 <a href="#">FusionSolar Smart PV</a>
             </div>
             <div class="footer-bottom-right">
-                <a href="#">
-                    <img src="images/icons/linkedin.svg" alt="linkedin">
-                </a>
-                <a href="#">
-                    <img src="images/icons/facebook.svg" alt="facebook">
-                </a>
-                <a href="#">
-                    <img src="images/icons/twitter-x.svg" alt="twitter-x">
-                </a>
-                <a href="#">
-                    <img src="images/icons/youtube.svg" alt="youtube">
-                </a>
-                <a href="#">
-                    <img src="images/icons/instagram.svg" alt="instagram">
-                </a>
+                <a href="#" aria-label="LinkedIn"><img src="images/icons/linkedin.svg" alt="LinkedIn"></a>
+                <a href="#" aria-label="Facebook"><img src="images/icons/facebook.svg" alt="Facebook"></a>
+                <a href="#" aria-label="Twitter X"><img src="images/icons/twitter-x.svg" alt="Twitter X"></a>
+                <a href="#" aria-label="YouTube"><img src="images/icons/youtube.svg" alt="YouTube"></a>
+                <a href="#" aria-label="Instagram"><img src="images/icons/instagram.svg" alt="Instagram"></a>
             </div>
         </div>
-    </div>
+    </footer>
 
+    <!-- Copyright & Legal -->
     <div class="copyright">
-        <span>©2024 Huawei Technologies Co., Ltd.</span>
+        <span>&copy;2024 Huawei Technologies Co., Ltd.</span>
         <a href="#">Contact</a>
         <a href="#">Terms of Use</a>
         <a href="#">Privacy</a>
         <a href="#">Cookies</a>
     </div>
+
+    <!-- Mobile Menu Interaction Script -->
+    <script>
+        const menuToggle = document.getElementById('menuToggle');
+        const headerNav = document.getElementById('headerNav');
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active');
+            headerNav.classList.toggle('active');
+        });
+    </script>
 </body>
 
 </html>
